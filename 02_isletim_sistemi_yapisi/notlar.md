@@ -14,7 +14,7 @@ Bu bölümde işletim sisteminin **nasıl organize edildiği**, **nasıl çalı�
 - **Avantajı:** Hızlıdır (doğrudan iletişim).  
 - **Dezavantajı:** Hata ayıklaması zordur.
 
-> 💡 Örnek: MS-DOS, Linux çekirdeği.
+> 💡 Örnek: MS-DOS, Linux çekirdeği, Unix çekirdeği.
 
 ### b. Katmanlı Yapı
 - İşletim sistemi **katmanlara ayrılır** (örn. donanım, çekirdek, servisler, kullanıcı arayüzü).  
