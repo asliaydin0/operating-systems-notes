@@ -100,6 +100,6 @@ Sanal makine (VM), fiziksel bir bilgisayarın **yazılımsal bir kopyasıdır**.
 
 ## 📌 Özet
 - İşletim sistemi farklı yapılarda tasarlanabilir (monolitik, mikroçekirdek, modüler).  
-- İşleyiş, bootloader → çekirdek → servisler → kullanıcı oturumu şeklindedir.  
+- İşleyiş, önyükleyici (bootloader) → çekirdek → servisler → kullanıcı oturumu şeklindedir.  
 - Tasarım süreci hedeflere ve mimariye göre şekillenir.  
 - Sanal makineler, işletim sistemlerinin esnekliğini artırır.
