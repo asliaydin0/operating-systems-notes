@@ -32,7 +32,14 @@ Bu bölümde işletim sisteminin **nasıl organize edildiği**, **nasıl çalı�
 
 > 💡 Örnek: Mach, Minix.
 
-### d. Modüler Sistemler
+### d. Hibrit Çekirdek (Hybrid Kernel)
+
+- Monolitik ve mikroçekirdek mimarilerinin birleşimidir.
+- Çekirdekte temel servisler bulunur, ancak bazı servisler kullanıcı modunda çalışabilir.
+- **Avantajı:** Hem performans hem de esneklik sunar.
+- **Dezavantajı:** Tasarımı karmaşıktır.
+
+### e. Modüler Sistemler
 - Çekirdek, **yüklenebilir modüller** içerir.  
 - Monolitik sistemin hızını, mikroçekirdeğin esnekliğiyle birleştirir.  
 - Modern işletim sistemleri bu yapıyı kullanır.
