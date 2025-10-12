@@ -39,6 +39,8 @@ Bu bölümde işletim sisteminin **nasıl organize edildiği**, **nasıl çalı�
 - **Avantajı:** Hem performans hem de esneklik sunar.
 - **Dezavantajı:** Tasarımı karmaşıktır.
 
+> 💡 Örnek: Windows NT, macOS X.  
+
 ### e. Modüler Sistemler
 - Çekirdek, **yüklenebilir modüller** içerir.  
 - Monolitik sistemin hızını, mikroçekirdeğin esnekliğiyle birleştirir.  
