@@ -1,76 +1,68 @@
-# 🧰 3.1 İşletim Sistemi Servisleri
+# ⚡ 3.3 Sistem Çağrıları (System Calls)
 
-İşletim sistemleri, kullanıcılar ve programlara sistem kaynaklarını **daha kolay ve güvenli** bir şekilde kullanmaları için çeşitli **servisler** sunar.  
-Bu servisler sayesinde uygulamalar donanımla doğrudan etkileşime geçmeden çalışabilir.
-
----
-
-## 🧠 Temel İşletim Sistemi Servisleri
-
-### a. Program Yürütme (Program Execution)
-- Programların belleğe yüklenmesi, çalıştırılması ve sonlandırılmasını sağlar.
-- Sistem kaynaklarını tahsis eder ve işlemleri yönetir.
-
-💡 **Örnek:** Bir tarayıcıyı açmak.
+Uygulama programları donanım kaynaklarına **doğrudan erişemez**.  
+Bunun yerine, işletim sisteminin çekirdeği ile iletişim kurmak için **sistem çağrıları** kullanılır.  
+Sistem çağrıları, kullanıcı modu ile çekirdek modu arasındaki geçişi güvenli bir şekilde sağlar.
 
 ---
 
-### b. G/Ç Operasyonları (I/O Operations)
-- Giriş ve çıkış cihazlarıyla etkileşimi yönetir.  
-- Programların donanımla doğrudan temas etmesini engeller.
+## 🧠 Sistem Çağrılarının Özellikleri
+- Uygulama → Sistem çağrısı → Çekirdek → Donanım  
+- Kontrollü ve güvenli bir erişim sağlar.  
+- Her işletim sisteminde sistem çağrılarının isimleri farklı olabilir ama işlevleri benzerdir.
 
-💡 **Örnek:** Klavyeden veri girişi veya USB’ye dosya yazma.
-
----
-
-### c. Dosya Sistemi Yönetimi (File System Manipulation)
-- Dosya oluşturma, okuma, yazma, silme ve erişim kontrolü servislerini sunar.
-
-💡 **Örnek:** Bir Word dosyasını açıp kaydetmek.
+💡 **Örnek:** Bir dosya açmak için `open()` çağrısı yapılır, çekirdek dosya sistemine erişir.
 
 ---
 
-### d. İletişim (Communication)
-- Birden fazla işlem veya cihaz arasında veri alışverişi yapılmasını sağlar.  
-- Senkron veya asenkron biçimde çalışabilir.
+## 🧰 Sistem Çağrısı Kategorileri
 
-💡 **Örnek:** Tarayıcı ve ağ kartı arasında veri iletimi.
-
----
-
-### e. Hata Algılama (Error Detection)
-- Donanım ve yazılım hatalarını tespit eder.  
-- Gerekirse düzeltme veya uyarı mekanizmasını tetikler.
-
-💡 **Örnek:** USB aygıt takıldığında hata mesajı verilmesi.
+### a. Proses Kontrolü (Process Control)
+- Program başlatma, durdurma, bekleme, sinyal gönderme.  
+💡 `fork()`, `exec()`, `exit()`, `wait()`
 
 ---
 
-### f. Kaynak Tahsisi (Resource Allocation)
-- İşlemciler, bellek alanı, depolama birimleri gibi kaynakları süreçlere tahsis eder.
-
-💡 **Örnek:** Aynı anda birden fazla uygulama çalıştırmak.
-
----
-
-### g. Muhasebe (Accounting)
-- Sistem kaynaklarının kullanımını izler.  
-- Performans analizi, faturalama veya güvenlik için veri sağlar.
-
-💡 **Örnek:** Görev Yöneticisi’nde CPU kullanımı takibi.
+### b. Dosya Yönetimi (File Management)
+- Dosya oluşturma, okuma, yazma, silme, kapatma.  
+💡 `open()`, `read()`, `write()`, `close()`
 
 ---
 
-### h. Koruma ve Güvenlik (Protection & Security)
-- Yetkisiz erişimi engeller ve sistemin güvenliğini sağlar.  
-- Kimlik doğrulama, erişim denetimi gibi mekanizmaları içerir.
+### c. Aygıt Yönetimi (Device Management)
+- Cihazlara erişim, okuma/yazma, kontrol.  
+💡 `ioctl()`, `read()`, `write()`
 
-💡 **Örnek:** Kullanıcı parolası, dosya izinleri.
+---
+
+### d. Bilgi Bakımı (Information Maintenance)
+- Sistem zamanı, kullanıcı bilgisi, dosya öznitelikleri.  
+💡 `getpid()`, `getuid()`, `time()`
+
+---
+
+### e. İletişim (Communication)
+- Süreçler arası iletişim (IPC), ağ haberleşmesi.  
+💡 `pipe()`, `shmget()`, `send()`, `recv()`
+
+---
+
+### f. Koruma (Protection)
+- Erişim hakları, yetkilendirme.  
+💡 `chmod()`, `umask()`, `setuid()`
+
+---
+
+## 🧭 Sistem Çağrısı Süreci
+1. Kullanıcı programı bir işlem başlatır.  
+2. Program uygun sistem çağrısını yapar.  
+3. CPU, kullanıcı modundan çekirdek moduna geçer.  
+4. Çekirdek çağrıyı işler.  
+5. Sonuç kullanıcı programına geri döner.
 
 ---
 
 ## 📌 Özet
-- İşletim sistemi servisleri, kullanıcı ve programlara kaynakları verimli ve güvenli kullanma olanağı sağlar.  
-- Temel servisler: **Program yürütme, G/Ç, dosya yönetimi, iletişim, hata algılama, kaynak tahsisi, muhasebe ve güvenlik**.  
-- Bu servisler, sistem çağrıları aracılığıyla uygulamalar tarafından kullanılır.
-
+- Sistem çağrıları, uygulamaların çekirdek üzerinden donanıma **güvenli** erişimini sağlar.  
+- Temel kategoriler: **Proses kontrolü, dosya yönetimi, aygıt yönetimi, bilgi bakımı, iletişim, koruma**.  
+- Tüm modern işletim sistemlerinde sistem çağrıları mevcuttur ancak isimleri ve uygulama biçimleri farklılık gösterebilir.
