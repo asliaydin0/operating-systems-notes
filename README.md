@@ -7,11 +7,11 @@ Amaç: Konuları sade, anlaşılır ve düzenli bir şekilde arşivleyip hem ken
 
 | Bölüm | Konu Grubu                       | İçerik Başlıkları                                                                                   |
 |-------|------------------------------------|-------------------------------------------------------------------------------------------------------|
-|[01]   (./01_Giris) | Giriş                 | İşletim Sistemi Ne Yapar?, Bilgisayar Sistemi Organizasyonu, Mimarisi                                 |
-| 02    | İşletim Sistemi Yapısı            | Yapı, İşleyiş, Tasarım ve Gerçekleştirim, Sanal Makineler                                             |
-| 03    | Servisler & Sistem Çağrıları     | Servisler, Kullanıcı Arayüzü, Sistem Programları, Çağrılar                                            |
-| 04    | Kaynak Yönetimi                   | İşlem Yönetimi, Hafıza Yönetimi, Depolama Birimi Yönetimi                                             |
-| 05    | İşletim Sistemi Türleri          | Dağıtık Sistemler, Özel Amaçlı Sistemler, Bilgisayar Ortamları, Açık Kodlu İşletim Sistemleri        |
+| 01    | [Giriş](./01_Giris)                 | İşletim Sistemi Ne Yapar?, Bilgisayar Sistemi Organizasyonu, Mimarisi                                |
+| 02    | [İşletim Sistemi Yapısı](./02_Yapisi)   | Yapı, İşleyiş, Tasarım ve Gerçekleştirim, Sanal Makineler                                        |
+| 03    | [Servisler & Sistem Çağrıları](./03_Servisler_SistemCagrilari)   | Servisler, Kullanıcı Arayüzü, Sistem Programları, Çağrılar              |
+| 04    | [Kaynak Yönetimi](./04_Kaynak_Yonetimi)   | İşlem Yönetimi, Hafıza Yönetimi, Depolama Birimi Yönetimi                                      |
+| 05    | [İşletim Sistemi Türleri](./05_Turler)    | Dağıtık Sistemler, Özel Amaçlı Sistemler, Bilgisayar Ortamları, Açık Kodlu İşletim Sistemleri  |
 | 06    | Terimler & Kaynaklar            | Kavramlar Sözlüğü, Ek Kaynaklar                                                                      |
 
 ## 🧰 Nasıl Kullanılır?
