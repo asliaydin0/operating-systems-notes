@@ -12,7 +12,7 @@ Amaç: Konuları sade, anlaşılır ve düzenli bir şekilde arşivleyip hem ken
 | 03    | [Servisler & Sistem Çağrıları](./03_Servisler_SistemCagrilari)   | Servisler, Kullanıcı Arayüzü, Sistem Programları, Çağrılar              |
 | 04    | [Kaynak Yönetimi](./04_Kaynak_Yonetimi)   | İşlem Yönetimi, Hafıza Yönetimi, Depolama Birimi Yönetimi                                      |
 | 05    | [İşletim Sistemi Türleri](./05_Turler)    | Dağıtık Sistemler, Özel Amaçlı Sistemler, Bilgisayar Ortamları, Açık Kodlu İşletim Sistemleri  |
-| 06    | Terimler & Kaynaklar            | Kavramlar Sözlüğü, Ek Kaynaklar                                                                      |
+| 06    | [Terimler & Kaynaklar](./06_Terimler_Kaynaklar)   | Kavramlar Sözlüğü, Ek Kaynaklar                                                        |
 
 ## 🧰 Nasıl Kullanılır?
 
