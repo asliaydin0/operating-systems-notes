@@ -7,7 +7,7 @@ Amaç: Konuları sade, anlaşılır ve düzenli bir şekilde arşivleyip hem ken
 
 | Bölüm | Konu Grubu                       | İçerik Başlıkları                                                                                   |
 |-------|------------------------------------|-------------------------------------------------------------------------------------------------------|
-|[01](./01_Giris) | Giriş                              | İşletim Sistemi Ne Yapar?, Bilgisayar Sistemi Organizasyonu, Mimarisi                                 |
+|[01]   (./01_Giris) | Giriş                 | İşletim Sistemi Ne Yapar?, Bilgisayar Sistemi Organizasyonu, Mimarisi                                 |
 | 02    | İşletim Sistemi Yapısı            | Yapı, İşleyiş, Tasarım ve Gerçekleştirim, Sanal Makineler                                             |
 | 03    | Servisler & Sistem Çağrıları     | Servisler, Kullanıcı Arayüzü, Sistem Programları, Çağrılar                                            |
 | 04    | Kaynak Yönetimi                   | İşlem Yönetimi, Hafıza Yönetimi, Depolama Birimi Yönetimi                                             |
