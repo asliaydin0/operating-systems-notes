@@ -16,13 +16,13 @@ Amaç: Konuları sade, anlaşılır ve düzenli bir şekilde arşivleyip hem ken
 
 ## 🧰 Nasıl Kullanılır?
 
-- 📁 İlgili klasöre giderek `*.md` dosyalarını inceleyebilirsin.  
-- 📌 Bazı konularda diyagramlar veya görseller yer alabilir.  
+- 📁 İlgili klasöre giderek `*.md` dosyalarını inceleyebilirsin.
+- 📌 **Özet dosyaları**, konuyu hızlıca tekrar etmek isteyenler için kısa açıklamalar sunar.  
+- 📊 Bazı konularda diyagramlar veya görseller yer alabilir.  
 
 ## 📚 Kaynaklar
 
-- Ders notları  
-- Abraham Silberschatz – *Operating System Concepts*  
+- Ders notları    
 - Açık ders materyalleri ve videolar  
 - Kendi özetlerim
 
