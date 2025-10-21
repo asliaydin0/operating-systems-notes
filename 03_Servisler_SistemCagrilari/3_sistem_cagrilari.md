@@ -62,7 +62,7 @@ Sistem çağrıları, kullanıcı modu ile çekirdek modu arasındaki geçişi g
 
 ---
 
-## 📌 Özet
+## 📌 Kısaca ;
 - Sistem çağrıları, uygulamaların çekirdek üzerinden donanıma **güvenli** erişimini sağlar.  
 - Temel kategoriler: **Proses kontrolü, dosya yönetimi, aygıt yönetimi, bilgi bakımı, iletişim, koruma**.  
 - Tüm modern işletim sistemlerinde sistem çağrıları mevcuttur ancak isimleri ve uygulama biçimleri farklılık gösterebilir.
