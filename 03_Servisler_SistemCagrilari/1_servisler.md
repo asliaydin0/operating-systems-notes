@@ -69,7 +69,7 @@ Bu servisler sayesinde uygulamalar donanımla doğrudan etkileşime geçmeden ç
 
 ---
 
-## 📌 Özet
+## 📌 Kısaca ;
 - İşletim sistemi servisleri, kullanıcı ve programlara kaynakları verimli ve güvenli kullanma olanağı sağlar.  
 - Temel servisler: **Program yürütme, G/Ç, dosya yönetimi, iletişim, hata algılama, kaynak tahsisi, muhasebe ve güvenlik**.  
 - Bu servisler, sistem çağrıları aracılığıyla uygulamalar tarafından kullanılır.
