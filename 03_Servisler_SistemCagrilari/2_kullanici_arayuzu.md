@@ -47,7 +47,7 @@ Bu arayüz, kullanıcıdan komut alır ve sistemin cevaplarını kullanıcıya g
 
 ---
 
-## 📌 Özet
+## 📌 Kısaca ;
 - Kullanıcı arayüzü, kullanıcı ile işletim sistemi arasındaki **görünür yüzdür**.  
 - CLI → hızlı ama teknik bilgi ister  
 - GUI → kullanıcı dostu ama daha fazla kaynak tüketir  
