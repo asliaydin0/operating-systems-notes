@@ -1,4 +1,4 @@
-# İşletim Sistemine Giriş 
+# İşletim Sistemine Giriş 🖥️ 
 
 Bu bölümde İşletim Sistemleri'nin temel görevleri, bilgisayar sistemi organizasyonu ve mimarisi ele alınacaktır.
 
