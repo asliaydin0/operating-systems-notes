@@ -1,4 +1,4 @@
-# İşletim Sistemine Giriş
+# İşletim Sistemine Giriş 
 
 Bu bölümde İşletim Sistemleri'nin temel görevleri, bilgisayar sistemi organizasyonu ve mimarisi ele alınacaktır.
 
@@ -6,7 +6,7 @@ Bu bölümde İşletim Sistemleri'nin temel görevleri, bilgisayar sistemi organ
 
 ## 1. İşletim Sistemi Ne Yapar?
 
-İşletim sistemi (İS), bilgisayar donanımı ile kullanıcı arasındaki **aracı yazılımdır**. Temel görevleri şunlardır:
+İşletim sistemi, bilgisayar donanımı ile kullanıcı arasındaki **aracı yazılımdır**. Temel görevleri şunlardır:
 
 - **Donanım yönetimi:** CPU, hafıza, disk ve diğer çevresel birimleri yönetir.
 - **Program çalıştırma:** Uygulamaların çalışması için gerekli ortamı sağlar.
